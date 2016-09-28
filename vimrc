@@ -42,6 +42,9 @@ set iskeyword+=\- " Complete words containing a dash
 " Open all cmd args in new tabs
 execute ":silent tab all"
 
+"Display tabs and trailing spaces visually.
+set list listchars=tab:\ \ ,trail:.
+
 """ Prevent lag when hitting escape
 set ttimeoutlen=0
 set timeoutlen=1000
